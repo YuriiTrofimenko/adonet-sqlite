@@ -1,0 +1,7 @@
+cd 
+rename C:\Users\ёрий\Documents\Visual Studio 2012\Projects\CS\Library_manager_sqlite\Library_manager\bin\Release\Library_manager.exe.config web.config
+
+aspnet_regiis.exe -pef "secureAppSettings" "C:\Users\ёрий\Documents\Visual Studio 2012\Projects\CS\Library_manager_sqlite\Library_manager\bin\Release" -prov "DataProtectionConfigurationProvider"
+
+cd "C:\Windows\Microsoft.NET\Framework64\v4.0.30319"
+aspnet_regiis.exe -pef "secureAppSettings" "E:\2020\Library_manager_sqlite\Library_manager\bin\Debug -prov "DataProtectionConfigurationProvider"
